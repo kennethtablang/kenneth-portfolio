@@ -360,7 +360,7 @@ nav.scrolled {
     transform: translateY(-50%) translateX(0);
   }
   50% {
-    transform: translateY(-50%) translateX(-20px);
+    transform: translateY(-50%) translateX(-30px);
   }
 }
 
@@ -966,6 +966,17 @@ footer {
     height: 200px;
     margin: 0 auto 2rem;
     order: -1;
+    animation: floatProfileMobile 6s ease-in-out infinite;
+  }
+
+  @keyframes floatProfileMobile {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
   }
 
   .hero-content {
