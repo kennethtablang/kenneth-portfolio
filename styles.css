@@ -952,8 +952,51 @@ footer {
     gap: 1rem;
   }
 
+  .hero {
+    flex-direction: column;
+    padding: 8rem 5% 4rem;
+  }
+
+  .hero-profile-image {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 2rem;
+    order: -1;
+  }
+
+  .hero-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   .about-content {
     grid-template-columns: 1fr;
+  }
+
+  .about-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .about-image::before {
+    top: -10px;
+    left: -10px;
   }
 
   .projects-grid {
@@ -971,23 +1014,5 @@ footer {
 
   .floating-orb {
     display: none;
-  }
-
-  .hero-profile-image {
-    position: relative;
-    right: auto;
-    transform: none;
-    width: 250px;
-    height: 250px;
-    margin: 2rem auto;
-  }
-
-  .hero-content {
-    text-align: center;
-  }
-
-  .hero-description {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
