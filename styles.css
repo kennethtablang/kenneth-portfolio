@@ -201,6 +201,7 @@ nav.scrolled {
   position: relative;
   overflow: hidden;
   letter-spacing: 0.05em;
+  color: var(--text-primary);
 }
 
 .theme-toggle:hover {
@@ -229,6 +230,10 @@ nav.scrolled {
   position: relative;
   z-index: 1;
   transition: transform 0.3s ease;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .theme-toggle:active .theme-icon {
