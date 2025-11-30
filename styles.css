@@ -328,8 +328,8 @@ nav.scrolled {
   right: 10%;
   top: 50%;
   transform: translateY(-50%);
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
   overflow: hidden;
   border: 5px solid rgba(99, 102, 241, 0.3);
