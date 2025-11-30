@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer. Built with clean, semantic HTML, custom CSS, and vanilla JavaScript for optimal performance and maintainability.
 
-![Portfolio Preview](assets/Screenshot%2025-11-30%182417.png)
+![Portfolio Preview](assets/Screenshot%202025-11-30%20182417.png)
 
 ## Features
 
