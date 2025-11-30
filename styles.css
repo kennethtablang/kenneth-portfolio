@@ -747,6 +747,19 @@ section {
   box-shadow: 0 20px 60px rgba(99, 102, 241, 0.3);
 }
 
+.project-link {
+  color: var(--accent-1);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 10;
+}
+
+.project-link:hover {
+  color: var(--accent-2);
+}
+
 .project-image {
   width: 100%;
   height: 250px;
@@ -826,17 +839,6 @@ section {
 .project-links {
   display: flex;
   gap: 1rem;
-}
-
-.project-link {
-  color: var(--accent-1);
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.project-link:hover {
-  color: var(--accent-2);
 }
 
 /* Contact Section */

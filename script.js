@@ -5,20 +5,20 @@ const html = document.documentElement;
 
 // Image mappings for dark and light themes
 const imageMapping = {
-  'assets/DSC05835 WN14.JPG': {
-    dark: 'assets/DSC05835 WN14.JPG',
-    light: 'assets/DSC05835 WN15.JPG'
+  'assets/Hero-dark.JPG': {
+    dark: 'assets/Hero-dark.JPG',
+    light: 'assets/Hero-light.png'
   },
-  'assets/DSC05835 WN15.JPG': {
-    dark: 'assets/DSC05835 WN14.JPG',
-    light: 'assets/DSC05835 WN15.png'
+  'assets/Hero-light.png': {
+    dark: 'assets/Hero-dark.JPG',
+    light: 'assets/Hero-light.png'
   },
-  'assets/Kenneth.png': {
-    dark: 'assets/Kenneth.png',
+  'assets/Kenneth-dark.png': {
+    dark: 'assets/Kenneth-dark.png',
     light: 'assets/Kenneth-light.png'
   },
   'assets/Kenneth-light.png': {
-    dark: 'assets/Kenneth.png',
+    dark: 'assets/Kenneth-dark.png',
     light: 'assets/Kenneth-light.png'
   }
 };
