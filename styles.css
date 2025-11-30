@@ -41,8 +41,8 @@ body {
   overflow-x: hidden;
   position: relative;
   transition: background-color 0.3s ease, color 0.3s ease;
-  -webkit-font-smoothing: antialiased; /* Smoother fonts on Mac/iOS */
-  -moz-osx-font-smoothing: grayscale; /* Smoother fonts on Firefox Mac */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Animated Background Gradient */
@@ -931,7 +931,7 @@ footer {
   color: var(--text-secondary);
 }
 
-/* Add these new classes for skill levels */
+/* Skill width variables */
 .skill-card[data-skill-width="95"] {
   --skill-width: 95%;
 }
@@ -1035,14 +1035,6 @@ footer {
     50% {
       transform: translateY(-20px);
     }
-  }
-
-  @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 300 800;
-    font-display: swap;
-    src: url("assets/fonts/Inter-VariableFont.woff2") format("woff2");
   }
 
   .hero-content {
