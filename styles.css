@@ -151,6 +151,7 @@ nav {
   width: 100%;
   padding: 1.5rem 5%;
   background: rgba(10, 10, 15, 0.8);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   z-index: 1000;
   transition: all 0.3s ease;
@@ -925,6 +926,55 @@ footer {
   padding: 2rem 5%;
   border-top: 1px solid rgba(99, 102, 241, 0.1);
   color: var(--text-secondary);
+}
+
+/* Add these new classes for skill levels */
+.skill-card[data-skill-width="95"] {
+  --skill-width: 95%;
+}
+
+.skill-card[data-skill-width="85"] {
+  --skill-width: 85%;
+}
+
+.skill-card[data-skill-width="82"] {
+  --skill-width: 82%;
+}
+
+.skill-card[data-skill-width="80"] {
+  --skill-width: 80%;
+}
+
+.skill-card[data-skill-width="90"] {
+  --skill-width: 90%;
+}
+
+.skill-card[data-skill-width="93"] {
+  --skill-width: 93%;
+}
+
+.skill-card[data-skill-width="88"] {
+  --skill-width: 88%;
+}
+
+.skill-card[data-skill-width="86"] {
+  --skill-width: 86%;
+}
+
+.skill-card[data-skill-width="78"] {
+  --skill-width: 78%;
+}
+
+.skill-card[data-skill-width="84"] {
+  --skill-width: 84%;
+}
+
+.skill-card[data-skill-width="92"] {
+  --skill-width: 92%;
+}
+
+.skill-card[data-skill-width="87"] {
+  --skill-width: 87%;
 }
 
 /* Responsive Design */
